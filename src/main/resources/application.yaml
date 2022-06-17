@@ -1,0 +1,14 @@
+cloud:
+  aws:
+    region:
+      static: ap-northeast-2
+    stack:
+      auto: false
+    credentials:
+      access-key: access-key
+      secret-key: secret-key
+
+aws:
+  sqs:
+    endpoint: https://sqs.ap-northeast-2.amazonaws.com/108199670400/
+    queue-test-sqs: mos-sqs-dev
