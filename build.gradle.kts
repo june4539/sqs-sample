@@ -18,6 +18,7 @@ repositories {
 extra["springCloudVersion"] = "Hoxton.SR6"
 
 dependencies {
+	implementation("com.pusher:pusher-http-java:1.0.0")
 	implementation("org.springframework.boot:spring-boot-starter-web")
 	implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
 	implementation("org.jetbrains.kotlin:kotlin-reflect")

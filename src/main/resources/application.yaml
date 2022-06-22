@@ -5,10 +5,16 @@ cloud:
     stack:
       auto: false
     credentials:
-      access-key: access-key
-      secret-key: secret-key
+      access-key: accessKey
+      secret-key: secretKey
 
 aws:
   sqs:
     endpoint: https://sqs.ap-northeast-2.amazonaws.com/108199670400/
     queue-test-sqs: mos-sqs-dev
+
+pusher:
+  appId: 1422550
+  key: 0c7070d38b90c0e1ab0c
+  secret: a1077781fc9e4ce1cadf
+  cluster: ap3
